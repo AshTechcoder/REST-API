@@ -1,0 +1,62 @@
+### Getting all Products list
+GET http://localhost:3000/products
+
+
+### Creating all products lis
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "name": "Vivo Y55",
+    "price": 326699
+}
+
+
+### GET a product by id
+GET  http://localhost:3000/products/5f8d72022db97a069c3d0590
+
+
+### Update a product by id 
+PATCH  http://localhost:3000/products/5f8da7136f27b627dc614b95
+Content-Type: application/json
+
+{
+    "price": 23999
+}
+
+
+### Delet a product by id
+DELETE  http://localhost:3000/products/5f8da7136f27b627dc614b95
+
+
+### Error type request
+GET http://localhost:3000
+
+
+
+
+### QueryString request
+GET http://localhost:3000/test?name=imac&price=24224
+
+
+
+### UrlPrameters request
+GET http://localhost:3000/test/iphone/4242
+
+
+### Normal request body
+POST  http://localhost:3000/test
+Content-Type: application/json
+
+{
+    "name": "iphone pro",
+    "price": 32233
+}
+
+
+
+### Urlencoded request body
+POST  http://localhost:3000/test
+Content-Type: application/x-www-form-urlencoded
+
+name=imac&price=34434
