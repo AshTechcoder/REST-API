@@ -3,7 +3,7 @@
 
 ## Description :
 
-This is a rest full api which is used to create list of Products.  Through this api you can learn node.js and mongoDB.
+It is a rest full api which is used to create list of Products.  Through this api you can learn node.js and mongoDB.
 
 This API is consist of  
 - Get all Product list
